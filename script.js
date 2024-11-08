@@ -1,4 +1,5 @@
 // script.js
+import {images } from "images.js"
 const images = [
     {
         full: './img/abstract_autumn.jpg',
