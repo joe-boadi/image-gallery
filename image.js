@@ -1,4 +1,4 @@
-export const images = [
+export const IMAGES = [
     {
         full: './img/abstract_autumn.jpg',
         thumb: './img/abstract_autumn.jpg',
@@ -27,7 +27,7 @@ export const images = [
     {
         full: './img/Chameleon.jpg',
         thumb: './img/Chameleon.jpg',
-        caption: 'Attractive chamel'
+        caption: 'Attractive chameleon'
     },
     {
         full: './img/analog.jpg',
@@ -65,3 +65,4 @@ export const images = [
         caption: 'Settling sunset and a tree'
     },
 ];
+
