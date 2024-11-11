@@ -8,20 +8,19 @@
 </head>
 <body>
     <header class="header"><h1>Interactive Image Gallery</h1></header>
-    <div class="gallery-container">
+    <article class="gallery-container">
         <!-- Thumbnails will be dynamically added here -->
-    </div>
-
-    <div class="lightbox" id="lightbox">
+    </article>
+    <section class="lightbox" id="lightbox">
         <span title="Close" class="close">×</span>
         <img class="lightbox-image" id="lightbox-image" src="" alt="">
         <div class="caption" id="caption"></div>
         <button title="Previos image" class="prev" id="prev"><</button>
         <button title="Next image" class="next" id="next">></button>
-    </div>
+    </section>
     <footer>
         <small>Made by <a href="https://github.com/joe-boadi" target="_blank" rel="noopener noreferrer">joe-boadi</a></small>
     </footer>
-    <script src="script.js"></script>
+    <script type="module" defer src="script.js"></script>
 </body>
 </html>
